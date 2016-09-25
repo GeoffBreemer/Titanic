@@ -1,7 +1,12 @@
+# Kaggle's Titanic competition: https://www.kaggle.com/c/titanic
+#
 # Feature selection is based on:
 #
 # http://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html
-
+#
+# The purpose of this code was to experiment with Pipeline, FeatureUnion etc.,
+# not to achieve a high score. The accuracy achieved on the public leaderboard
+# is 0.78947
 
 # -------------------------- Imports --------------------------
 from sklearn.cross_validation import train_test_split, KFold, StratifiedKFold
@@ -20,11 +25,6 @@ from comp_common import *
 randomState = 122177
 numCVFolds = 10
 testSize = 0.2
-kRange = np.arange(15, 0, -1)
-weightRange = ['uniform', 'distance']
-setSizes = np.linspace(0.1, 1.0, 20)
-savePlots = False
-numFeatures = 5
 scoring = 'accuracy'
 
 # -------------------------- DRIVER CODE STARTS HERE --------------------------
@@ -145,7 +145,7 @@ print('---> fitting final model')
 grid.fit(X, y)
 
 
-# -------------------------- Save the pipeline using pickle/joblib --------------------------
+# -------------------------- Save the pipeline using joblib --------------------------
 print('---> saving final model')
 joblib.dump(grid, modelfilename)
 

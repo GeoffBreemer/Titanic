@@ -6,7 +6,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 # -------------------------- Constants --------------------------
 traindatafilename = './data/train.csv'
 testdatafilename = './data/test.csv'
-modelfilename = './savedmodels/titanicmodel.pkl'
+modelfilename = './model/titanicmodel.pkl'
 startingColumn = 'Pclass'
 labelColumn = 'Survived'
 

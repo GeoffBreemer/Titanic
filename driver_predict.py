@@ -7,11 +7,11 @@ predfilename = './data/testpredictions.csv'
 # -------------------------- DRIVER CODE STARTS HERE --------------------------
 
 
-# -------------------------- Load the individual data sets --------------------------
+# -------------------------- Load the data set --------------------------
 print('---> loading data')
 X = loadData(testdatafilename)
 
-# -------------------------- Load the model pickle/joblib --------------------------
+# -------------------------- Load the model --------------------------
 print('---> loading model')
 clf = joblib.load(modelfilename)
 
