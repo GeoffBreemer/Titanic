@@ -1,11 +1,9 @@
 # Kaggle's Titanic competition: https://www.kaggle.com/c/titanic
 #
-# Feature selection is based on:
+# Feature selection is based on: http://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html
 #
-# http://ahmedbesbes.com/how-to-score-08134-in-titanic-kaggle-challenge.html
-#
-# The purpose of this code was to experiment with Pipeline, FeatureUnion etc.,
-# not to achieve a high score. The accuracy achieved on the public leaderboard
+# The purpose of this project was to experiment with Pipeline, FeatureUnion etc.,
+# not to achieve a high Kaggle score. The accuracy achieved on the public leaderboard
 # is 0.78947
 
 # -------------------------- Imports --------------------------

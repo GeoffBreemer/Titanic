@@ -1,5 +1,5 @@
 # Project goal
-The purpose of this project was to learn Python and experiment with scikit-learn and its Pipeline, FeatureUnion and other classes using Kaggle's Titanic competition. Achieving a high Kaggle score was not a goal. Code uses Python 3.5 and scikit-learn 0.17.1. All data files are located in the `data` subfolder
+The purpose of this project was to learn Python and experiment with scikit-learn and its Pipeline, FeatureUnion and other classes using Kaggle's Titanic competition. Achieving a high Kaggle score was not a goal (public leaderboard score achieved: 0.78947). Code uses Python 3.5 and scikit-learn 0.17.1. All data files are located in the `data` subfolder
 
 # Fitting the model
 Run `driver_fit.py` to fit the RandomForest model, which will be saved to subfolder `model`
